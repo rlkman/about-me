@@ -45,9 +45,9 @@ var continentsVisited = prompt('Have I visited all 5 continents?');
       var teamSupported = prompt('Do I support Liverpool Football Club?');
         console.log('will accept yes or no answer:'+teamSupported);
 
-        if((continentsVisited.toLowerCase() === "yes"|| continentsVisited.toUpperCase() === "YES" )||
-        (continentsVisited.toLowerCase() === "y"|| continentsVisited.toUpperCase() === "Y" )){
-          alert('Definitely, '+ userName +' support the team...YNWA...!!!');
+        if((continentsVisited.toLowerCase() === "no"|| continentsVisited.toUpperCase() === "NO" )||
+        (continentsVisited.toLowerCase() === "n"|| continentsVisited.toUpperCase() === "N" )){
+          alert('Definitely, '+ userName +', I support Liverpool FC...YNWA...!!!');
         } else {
           alert('Are they any other teams...'+ userName + '???...YNWA.');
         }
@@ -69,6 +69,7 @@ if (window.confirm("Hope you enjoyed answering these questions.")) {
   window.open("exit.html", "Thanks for playing!");
 }
 
+//trying something new
 var greeting = 'Thank you for spending the time getting to know me ';
 var name = userName;
 

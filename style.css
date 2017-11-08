@@ -11,6 +11,11 @@ body{
   background-color: blue;
 }
 
+p{
+  color: gray;
+  
+}
+
 ul li{
   text-align: left;
 }
@@ -20,4 +25,11 @@ footer{
   padding:10px;
   background-color: gray;
   text-align: center;
+}
+
+div{
+  color: red;
+  border-width: thick;
+  border-color: yellow;
+  padding: 10;
 }
