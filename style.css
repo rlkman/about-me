@@ -1,0 +1,23 @@
+header{
+  color: white;
+  background-color: black;
+}
+
+body{
+  margin:500;
+  height:100%;
+  font-family: helvetica;
+  text-align: center;
+  background-color: blue;
+}
+
+ul li{
+  text-align: left;
+}
+
+footer{
+  clear: left;
+  padding:10px;
+  background-color: gray;
+  text-align: center;
+}
