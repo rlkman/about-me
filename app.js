@@ -12,8 +12,7 @@ alert('Thank you '+ userName +' take yout time to know me.' );
 var continentsVisited = prompt('Have I visited all 5 continents?');
 console.log('will accept yes or no answer:', continentsVisited);
 
-if((continentsVisited.toLowerCase() ==='yes'|| continentsVisited.toUpperCase() === 'YES' )||
-  (continentsVisited.toLowerCase() === 'y'|| continentsVisited.toUpperCase() === 'Y' )){
+if(continentsVisited.toLowerCase() ==='yes'|| continentsVisited.toUpperCase() === 'YES' ){
   alert('Nope, '+ userName +' I am still to visit a couple..!!');
 } else {
   alert('Hey '+userName+' that\'s true I am still to do that.');
@@ -23,8 +22,7 @@ if((continentsVisited.toLowerCase() ==='yes'|| continentsVisited.toUpperCase() =
 var favouriteMovie = prompt('Do I have a favourite movie?');
 console.log('will accept yes or no answer:', favouriteMovie);
 
-if((favouriteMovie.toLowerCase() === 'no'|| favouriteMovie.toUpperCase() === 'NO' )||
-    (continentsVisited.toLowerCase() === 'n'|| continentsVisited.toUpperCase() === 'N' )){
+if(favouriteMovie.toLowerCase() === 'no'|| favouriteMovie.toUpperCase() === 'NO' ){
   alert(userName + ' You are right, I dont like movies that much!!');
 } else {
   alert('That\'s unfortunately not true, '+ userName);
@@ -34,8 +32,7 @@ if((favouriteMovie.toLowerCase() === 'no'|| favouriteMovie.toUpperCase() === 'NO
 var petsOwned = prompt('Do I own any pets?');
 console.log('will accept yes or no answer:', petsOwned);
 
-if((petsOwned.toLowerCase() === 'yes'|| petsOwned.toUpperCase() === 'YES' )||
-      (petsOwned.toLowerCase() === 'y'|| petsOwned.toUpperCase() === 'Y' )){
+if(petsOwned.toLowerCase() === 'yes'|| petsOwned.toUpperCase() === 'YES' ){
   alert('Nope, Unfotunately I love travelling too much to give enough attention to a pet');
 } else {
   alert('That\'s true I do not own a pet - I spend too much time on planes.');
@@ -45,8 +42,7 @@ if((petsOwned.toLowerCase() === 'yes'|| petsOwned.toUpperCase() === 'YES' )||
 var teamSupported = prompt('Do I support Liverpool Football Club?');
 console.log('will accept yes or no answer:'+teamSupported);
 
-if((continentsVisited.toLowerCase() === 'no'|| continentsVisited.toUpperCase() === 'NO' )||
-        (continentsVisited.toLowerCase() === 'n'|| continentsVisited.toUpperCase() === 'N' )){
+if(continentsVisited.toLowerCase() === 'no'|| continentsVisited.toUpperCase() === 'NO' ){
   alert('Are they any other teams...'+ userName + '???...YNWA.');
 } else {
   alert('Definitely, '+ userName +', I support Liverpool FC...YNWA...!!!');
@@ -56,8 +52,7 @@ if((continentsVisited.toLowerCase() === 'no'|| continentsVisited.toUpperCase() =
 var travelQuestion = prompt('Do I like travelling?');
 console.log('will accept yes or no answer:', travelQuestion);
 
-if((travelQuestion.toLowerCase() === 'yes'|| travelQuestion.toUpperCase() === 'YES' )||
-        (travelQuestion.toLowerCase() === 'y'|| travelQuestion.toUpperCase() === 'Y' )){
+if(travelQuestion.toLowerCase() === 'yes'|| travelQuestion.toUpperCase() === 'YES' ){
   alert('Definitely, '+ userName +', you bet...!!!');
 } else {
   alert('There\'s so much of the world to see.'+ userName + ', travelling is brilliant.');
@@ -94,7 +89,7 @@ for(var i = 0; i < 3; i++){
 alert('Thanks for playing the number guessing game, please continue.');
 
 //Question7 - array of 6 correct answers that are checked on and gives tally at the enjoyed
-var placesVisited = ['iceland', 'norway', 'southafrica', 'faroe', 'canada', 'holland'];
+var placesVisited = ['iceland', 'norway', 'zimbabwe', 'England', 'canada', 'holland'];
 var guessedPlacesVisited = ' ';
 var tally = 0;
 // var userName = 'Tony';

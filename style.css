@@ -3,16 +3,38 @@ header{
   background-color: black;
 }
 
-body{
+img.align-center {
+  display:block;
+  margin: 0px auto;
+}
+img.medium {
+  width: 200px;
+  height: 200px;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  margin:10px;
+  border: 10px red;
+  }
+
+
+
+nav ul li{
+    float: left;
+    width: 400px;
+    margin:10px;
+    display: inline;
+}
+
+
+body {
   margin:500;
   height:100%;
   font-family: helvetica;
   text-align: center;
   background-color: blue;
-}
-
-aside ul{
-  border: 2px solid red;
 }
 
 .subs{
