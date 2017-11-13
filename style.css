@@ -11,13 +11,32 @@ body{
   background-color: blue;
 }
 
+aside ul{
+  border: 2px solid red;
+}
+
+.subs{
+  color: white;
+  background-color: black;
+}
+
 p{
+  text-align: center;
   color: gray;
   border-color: black;
 }
 
 ul li{
+  list-style: circle;
   text-align: left;
+  color:red;
+  margin-left: 500px;
+}
+
+ol li{
+  text-align: left;
+  color:red;
+  margin-left: 500px;
 }
 
 footer{
